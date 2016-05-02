@@ -1,0 +1,101 @@
+body{
+    background-image: url("http://previews.123rf.com/images/kytalpa/kytalpa1301/kytalpa130100018/17527465-Patr-n-de-fondo-sin-fisuras-ilustraci-n-de-dibujos-f-sica-estilo-de-garabato-Foto-de-archivo.jpg")
+}
+.titulo{
+    background: whitesmoke;
+    text-align: center;
+    border: outset;
+}
+.INGRESARDATOS{
+    font-size: 25px;
+    top: 100px;
+    background: blanchedalmond;
+    width: 450px;
+    text-align: center;
+    border: outset;
+    font-family: Helvetica;
+}
+
+#atencion{
+    position: absolute;
+    right: 20px;
+    background: blanchedalmond;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 20px;
+    border: outset;
+}
+#boton1{
+    background-color: blanchedalmond;
+    padding: 15px 25px;
+    font-size: 14px;
+    color: black;
+    border: 2px solid black;
+
+}
+#boton1:hover{
+    background-color: black;
+    font-family: helvetica;
+    color: white;
+    padding: 15px 25px;
+    text-aling: center;
+    display: inline-block;
+    font-size: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+#boton2{
+    background-color: transparent;
+    padding: 15px 25px;
+    font-size: 14px;
+    color: black;
+    border: 2px solid black;
+}
+#boton2:hover{
+    background-color: black;
+    font-family: helvetica;
+    color: white;
+    padding: 18px 28px;
+    text-aling: center;
+    display: inline-block;
+    font-size: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+#boton3{
+    background-color: transparent;
+    padding: 15px 25px;
+    font-size: 14px;
+    color: black;
+    border: 2px solid darkgreen;
+}
+#boton3:hover{
+    background-color: darkgreen;
+    font-family: helvetica;
+    color: white;
+    padding: 18px 28px;
+    text-aling: center;
+    display: inline-block;
+    font-size: 15px;
+    border: none;
+    background-color: darkgreen;
+    color: white;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+#franco {
+    font-size: 25px;
+    text-align: center;
+    font-family: Helvetica;
+    right: 20px;
+    position: absolute;
+    margin-bottom: 50px;
+}

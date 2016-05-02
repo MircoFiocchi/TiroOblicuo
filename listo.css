@@ -1,0 +1,23 @@
+body{
+    background-image: url("http://previews.123rf.com/images/kytalpa/kytalpa1301/kytalpa130100018/17527465-Patr-n-de-fondo-sin-fisuras-ilustraci-n-de-dibujos-f-sica-estilo-de-garabato-Foto-de-archivo.jpg")
+}#grafik{
+    width: 500px;
+}
+
+.titulo{
+    background: whitesmoke;
+    text-align: center;
+    border: outset;
+    font-family: "Helvetica Neue";
+}
+
+.INGRESARDATOS{
+    position: absolute;
+    right: 200px;
+    background: blanchedalmond;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 20px;
+    border: outset;
+
+}
