@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <script src="Formula.js"></script>
+
     <link rel="stylesheet" href="Estilo1.css">
     <meta charset="UTF-8">
     <title>Problema Fisica "Tiro Oblicuo"</title>
@@ -28,7 +30,7 @@
     </div>
 
 
-    <div class="INGRESARDATOS">
+    <form id="ingresardatos">
         <h4>
             INGRESO DE DATOS
         </h4>
@@ -47,28 +49,13 @@
             <option value="radianes">radianes</option>
         </select>
         <br>
-        Altura inicial
-        <input type="text" name="Ho">
-        <select name="UnidadHo">
-            <option value="mo">m</option>
-            <option value="kmo">km</option>
-        </select>
         <br>
-        Altura final
-        <input type="text" name="Hf">
-        <select name="UnidadHf">
-            <option value="mf">m</option>
-            <option value="kmf">km</option>
-        </select>
-        <br>
-
-
         <br>
         <button id="boton2" type="button">Ingresar otros datos</button>
-        <button id="boton3" type="button" onclick="window.location.href='listo.html'">Realizar el calculo</button> <br>
+        <button id="boton3" type="button" onclick="cargarDistancia()">Realizar el calculo</button> <br>
         <br>
 
-            </div>
+            </form>
         <br>
 
 
