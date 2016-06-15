@@ -1,10 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+<link rel="stylesheet" href="Veresultado.ht.css" type="text/css">
 <head>
+    <script src="formulario.js"></script>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Tiro Oblicuo</title>
 </head>
 <body>
+<head>
+    <script type="text/javascript">
+        var resultados = new Array();
+
+        //Creo una función que crea las imagenes de todas los resultados y las incorpora a un elemento div
+
+        function mostrarResultado() {
+            var dados = new Array()
+            for (var i=0; i<resultados.length; i++) {
+                dados[i] = document.createElement("img");
+                dados[i].src = eval("Resultado " + i + ".gif");
+                document.getElementById(resultadotirada).appendChild(dados[i]);
+            }
+        }
+
+    </script>
+</head>
+<body>
+<div id="resultadotirada"></div>
+</body>
+<div id="barrasup">
+    <h2 id= "titulofi" style="font-family: Helvetica">FISICA I</h2> <h3 id= "titulopro" style="font-family: Helvetica">Tiro Oblicuo</h3>
+</div>
+
+</div>
+<div id="grafico">
+
+
+
+</div>
+
+</div>
+
 
 </body>
 </html>
