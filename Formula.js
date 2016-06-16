@@ -35,6 +35,7 @@ function MostrarDist() {
     var unidad = "m";
 
     document.getElementById('rDist').value = dist+unidad;
+    document.getElementById('rtiempo').value = ((Vo* 2) / 9.8)+" s";
 
 }
 
@@ -42,7 +43,7 @@ function MostrarTiempo() {
 
     var myArr = window.location.hash.split('#');
     var Vo = (myArr[2]);
-
+    alert(Vo);
 
     var tiempo;
     tiempo = (((document.getElementById("Vo").value * 2) / 9.8));
