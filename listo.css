@@ -21,3 +21,24 @@ body{
     border: outset;
 
 }
+#boton2{
+    background-color: transparent;
+    padding: 15px 25px;
+    font-size: 14px;
+    color: black;
+    border: 2px solid black;
+}
+#boton2:hover{
+    background-color: black;
+    font-family: helvetica;
+    color: white;
+    padding: 18px 28px;
+    text-aling: center;
+    display: inline-block;
+    font-size: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}

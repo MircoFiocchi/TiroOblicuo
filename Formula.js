@@ -29,13 +29,29 @@ function MostrarDist() {
     var titao = (myArr[3]);
     var titaoRad;
 
+    if (isNaN(Vo)) {
+        alert('La velocidad inicial debe ser un numero');
+        return;
+    }
+    if (isNaN(titao)) {
+        alert('El angulo inicial debe ser un numero');
+        return;
+    }
+    
     titaoRad=titao*Math.PI/180;
 
     var dist = ((Vo* Math.sin(titao)) / 9.8);
     var unidad = "m";
 
-    document.getElementById('rDist').value = dist+unidad;
-    document.getElementById('rtiempo').value = ((Vo* 2) / 9.8)+" s";
+    var rDist = dist+unidad;
+    var rTiempo = ((Vo* 2) / 9.8)+" s";
+
+
+
+    document.getElementById('rDist').value = rDist.toString().substr(0,rDist.toString().indexOf('.')+3);
+    document.getElementById('rtiempo').value = rTiempo.toString().substr(0,rTiempo.toString().indexOf('.')+3);
+
+
 
 }
 
