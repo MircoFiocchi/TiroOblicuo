@@ -63,10 +63,9 @@ function animar() {
 function dibujar() {
     var canvas = document.getElementById("micanvas");
     var ctx = canvas.getContext('2d');
-
     canvas.width=canvas.width;
     ctx.beginPath();
-    y = Math.sin(x/10*Math.PI)*10+60;
+    y = 100 + ((1/70)*(x-100)*(x-100));
     ctx.arc(x, y, 10, 0, 2 * Math.PI);
     ctx.stroke();
     x++;
@@ -74,8 +73,8 @@ function dibujar() {
 
 
     ctx.beginPath();
-    ctx.moveTo(0,0);
-    ctx.lineTo(300,150);
+    ctx.moveTo(0,254);
+    ctx.lineTo(254,254);
     ctx.stroke();
 
     if(x>200)
